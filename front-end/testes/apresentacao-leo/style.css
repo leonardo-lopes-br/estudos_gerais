@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth; /*Deixa a transição ao descer a página mais suave*/
+}
+
+:root{
+	--ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+	--clr-green-dark: #E85F81;
+	--clr-green-light:#F263CE;
+	--clr-pink-dark: #CB64DB;
+	--clr-pink-light: #B863F2;
+	--clr-white: #8B5FE8;
+}
+
+
+
+
+
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    background-color: var(--clr-green-dark);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.imagem_inicial{
+    display: block;
+    width: 120px;
+}
+
+.menu_links{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}

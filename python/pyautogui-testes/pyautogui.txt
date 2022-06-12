@@ -1,0 +1,16 @@
+PYAUTOGUI
+
+pyautogui.alert('codigo sendo usado')
+python.PAUSE = tempo (em  segundos) (geral)
+python.write('texto')
+python.press('tecla')
+tempo especifico: sleep
+pyautogui.hotkey('tecla',complemento)
+pyautogui.moveTo(x,y) mover mouse
+pyautogui.mouseDown(x,y) clica e segura
+pyautogui.mouseUp() solta o mouse
+pyautogui.position(x,y) mostra as coordenadas de onde o mouse está na tela
+
+
+
+

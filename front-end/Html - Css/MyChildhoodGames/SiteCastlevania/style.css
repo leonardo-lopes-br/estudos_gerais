@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+:root{
+    --cor0: #54545C;
+    --cor1: #9A99A8;
+    --cor2: #464475;
+    --cor3: #5552A8;
+    --cor4: #E0DFF5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(87, 102, 132, 0.393);
+}
+
+header{
+    background-image: linear-gradient(to bottom,var(--cor2), var(--cor3));
+    color: white;
+    min-height: 150px;
+    font-family: 'Cinzel', serif;
+}
+
+header > h1{
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 13px;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+    
+}
+
+
+
+main{
+    background-color: white;
+    color: black;
+    margin: auto;
+    min-width: 400px;
+    max-width: 1000px;
+    
+}
+
+main h1, h2, h3{
+    font-family: 'Cinzel', serif;
+    text-indent: 20px;
+
+}
+
+main h2{
+    background-image: linear-gradient(to right,var(--cor3),transparent);
+    font-size: 2em;
+    margin: 20px 0px;
+    color: white;
+}
+
+.InfoLeo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.InfoLeo img{
+    padding-right: 20px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.castlevania_imagem{
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    padding: 15px;
+}
+
+footer{
+    background-color: var(--cor0);
+}
+
+

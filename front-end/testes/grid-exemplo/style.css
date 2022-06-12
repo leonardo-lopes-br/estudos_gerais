@@ -1,0 +1,35 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr; /*O número indica a proporção ocupada na tela. Aqui estou criando duas colunas, uma ocupando 3 quartos da tela e a outra ocupando o restante (fr = fraction (frações do todo)) */
+    grid-template-rows: 20vh 70vh 10vh;
+    grid-template-areas: "header header" "main aside" "footer footer"; /* Aqui eu estou setando 2 colunas, na primeira eu to dizendo que quero o header em ambas as colunas; o main em uma delas e o aside na coluna ao lado; e o footer nas duas colunas embaixo (poderiam ser quaisquer nomes ali, contanto que colocasse o mesmo para cada item do grid depois no "grid-area"). Inclusive se quisesse por exemplo que o header ocupasse só uma coluna e deixasse a outra vazia, poderia colocar um ponto na segunda posição ("header .") ali dentro do "grid-template-areas".*/
+
+   /* grid-gap: 20px;*/ /*É para o espaçamento dos itens, shorthand para grid-row-gap e grid-column-gap*/
+}
+
+header{
+    background: yellow;
+    grid-area: header;
+}
+
+main{
+    background: blue;
+    grid-area: main;
+}
+
+aside{
+    background: green;
+    grid-area: aside;
+}
+
+footer{
+    background: red;
+    grid-area: footer;
+}

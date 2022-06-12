@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(114, 114, 250);
+    font-weight: normal;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px; /*preenchimento (ficar mais gordinho)*/
+    width: 500px;
+    margin: auto; /*centraliza*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.357);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

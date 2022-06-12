@@ -1,0 +1,33 @@
+/*  Cores da paleta (olhar no navegador, nesta ordem, esquerda pra direita)
+#6E120B
+#F06A60
+#ED2618
+#705452
+#BA1E13*/
+
+body{
+    background-color: #705452;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+div{
+    background-color: white;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px; /*preenchimento (ficar mais gordinho)*/
+    width: 1000px;
+    margin: auto; /*centraliza*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.357);
+
+}

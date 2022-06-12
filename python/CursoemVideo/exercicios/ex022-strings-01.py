@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+print(f'Seu nome em MAIUSCULAS é: {nome.upper()}')
+print(f'Seu nome em MINUSCULAS é: {nome.lower()}')
+space = nome.count(' ')
+print(f'Seu nome tem {len(nome)-space} letras')
+nome_separado = nome.split()
+print(f'Seu primeiro nome tem {len(nome_separado[0])} letras')

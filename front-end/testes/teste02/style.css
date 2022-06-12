@@ -1,0 +1,146 @@
+/*#4D1275
+#C06FF7
+#A324F5
+#5B3575
+#801DC2
+
+*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #4D1275;
+}
+
+/* ------------------------- HEADER -----------------------*/
+
+.header{
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #5B3575;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.img{
+    width: 100px;
+    padding-left: 15px;
+   
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.link{
+    padding: 5px;
+    font-size: 25px;
+    margin-right: 10px;
+    list-style: none;
+    background-color: lightgray;
+}
+
+a, a:hover, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* ------------------------- HEADER FIM-----------------------*/
+
+/* ------------------------------------ MAIN ----------------------------------------*/
+
+.main{
+    background-color: #A324F5;
+   
+}
+
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+    background-color: white;
+
+}
+
+/*LIFE IS STRANGE*/
+
+.life_conteudo{
+    background-color: #C06FF7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.life_descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 500px;
+    background-color: white;
+    text-align: justify;
+}
+
+.life_img{
+    margin: 0 auto;
+    display: block;
+}
+
+/*TLOU REMASTERED*/
+
+.tlou_conteudo{
+    background-color: #C06FF7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.tlou_descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 500px;
+    background-color: white;
+    text-align: justify;
+
+}
+
+.tlou_img{
+    margin: 0 auto;
+    display: block;
+}
+
+/*TLOU PART 2*/
+
+.tlou2_conteudo{
+    background-color: #C06FF7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.tlou2_descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 500px;
+    background-color: white;
+    text-align: justify;
+    
+}
+
+.tlou2_img{
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+/* ------------------ MAIN FIM -------------------------------------------------*/
